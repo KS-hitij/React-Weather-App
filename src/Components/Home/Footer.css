@@ -1,0 +1,24 @@
+.footer{
+    height: 5.5rem;
+    position: relative;
+    width: 100%;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+h3{
+    cursor: default;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+@media(max-width:440px){
+    .footer{
+        height: 5rem;
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,19 @@
+.dashboard{
+    display: flex;
+    justify-content: space-evenly;
+    width: 35rem;
+    align-items: center;
+    font-size: 1.15rem;
+}
+
+.dashboard h3:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: transform 0.15s ease-in;
+}
+@media (max-width:550px){
+    .icons{
+        display: none;
+    }
+}
+

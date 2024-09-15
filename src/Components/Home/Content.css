@@ -1,0 +1,13 @@
+.content{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 4.5rem;
+    text-wrap-style: wrap;
+    padding-top: 20rem;
+    cursor: default;
+}
+@media (max-width:440px){
+    .content{
+        padding-top: 10rem;
+    }
+}

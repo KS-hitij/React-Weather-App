@@ -1,0 +1,35 @@
+.logo{
+    height: 100%;
+    width: 5rem;
+    margin-left: 1rem;
+}
+span:hover{
+    cursor: default;
+}
+span{
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    width: 22rem;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 550;
+}
+p{
+    display: flex;
+    flex-wrap: wrap;
+    cursor: default;
+}
+@media (max-width:920px) {
+    .title{
+        display: none;
+    }
+}
+@media (max-width: 440px){
+    .logo{
+        display: none;
+    }
+    span{
+        width: 0;
+    }
+}

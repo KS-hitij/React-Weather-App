@@ -1,0 +1,15 @@
+.search{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 8rem;
+}
+.search input{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.search input:focus{
+    border: 0px;
+}
+.search_btn{
+    font-size: 2rem;
+}
