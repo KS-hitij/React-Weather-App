@@ -1,0 +1,9 @@
+input{
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: #2ba6c2;
+}
+input:focus,input:active{
+    background-color: #2bbdc2;
+}

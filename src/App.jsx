@@ -4,7 +4,7 @@ import Forecast from './Components/Forecast/Forecast.jsx'
 function App() {
     return(
         <>
-            <Home></Home>
+            <Forecast></Forecast>
         </>
     )
 }
