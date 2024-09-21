@@ -1,9 +1,10 @@
 input{
     border-radius: 20px;
     outline: none;
-    border: none;
-    background-color: #2ba6c2;
+    background-color: white;
+    max-width: 389px;
+    width: 100%;
 }
 input:focus,input:active{
-    background-color: #2bbdc2;
+    background-color: white;
 }

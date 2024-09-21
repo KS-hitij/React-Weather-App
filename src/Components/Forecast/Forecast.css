@@ -1,3 +1,35 @@
-Search{
+body{
+    margin: 0;
     height: 100%;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+}
+.forecast{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("/assets/SEABG.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.footer{
+    min-height: 8vh;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: calc((10vh - 8 vh)/2);
+}
+@media (max-width:500px){
+    .container{
+        padding: 0;
+    }
 }

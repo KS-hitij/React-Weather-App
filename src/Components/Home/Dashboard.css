@@ -3,7 +3,7 @@
     justify-content: space-evenly;
     width: 35rem;
     align-items: center;
-    font-size: 1.15rem;
+    font-size: 1.25rem;
 }
 
 .dashboard h3:hover{
@@ -14,6 +14,9 @@
 @media (max-width:550px){
     .icons{
         display: none;
+    }
+    .dashboard{
+        font-size: 5vw;
     }
 }
 
